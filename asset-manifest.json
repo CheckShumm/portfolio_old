@@ -9,7 +9,7 @@
   "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
   "static/media/city.jpeg": "/static/media/city.97786346.jpeg",
   "static/media/Nathan-Shummoogum-Resume.pdf": "/static/media/Nathan-Shummoogum-Resume.31c62126.pdf",
-  "static/media/semantic.min.css": "/static/media/outline-icons.cd6c777f.woff2",
+  "static/media/semantic.min.css": "/static/media/outline-icons.ef60a4f6.woff",
   "static/media/profile_pic.png": "/static/media/profile_pic.818f4ee1.png",
   "static/media/choices.png": "/static/media/choices.a40430d9.png",
   "static/media/PINE.jpg": "/static/media/PINE.7bb3bb03.jpg",
@@ -21,6 +21,6 @@
   "static/css/main.bc752818.chunk.css.map": "/static/css/main.bc752818.chunk.css.map",
   "static/css/1.52c8866e.chunk.css.map": "/static/css/1.52c8866e.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.9a015c6c4b6e6afa93db03d45ae54d7a.js": "/precache-manifest.9a015c6c4b6e6afa93db03d45ae54d7a.js",
+  "precache-manifest.53c8cc70b3faed6f05f9dab7b57fc319.js": "/precache-manifest.53c8cc70b3faed6f05f9dab7b57fc319.js",
   "service-worker.js": "/service-worker.js"
 }
