@@ -36,7 +36,7 @@ class Projects extends Component {
                           </div>
                         </Grid.Row>
                         <Grid.Row>
-                          <Label.Group size="medium">
+                          <Label.Group size="small">
                             <Label color="green">Android</Label>
                             <Label color="red">Java</Label>
                           </Label.Group>
@@ -92,7 +92,7 @@ class Projects extends Component {
                           </div>
                         </Grid.Row>
                         <Grid.Row>
-                        <Label.Group size="medium">
+                        <Label.Group size="small">
                           <Label color="red">Mongo</Label>
                           <Label color="orange">Express</Label>
                           <Label color="green">React js</Label>
@@ -107,7 +107,7 @@ class Projects extends Component {
                           <Grid.Column floated="left" width={7}>
                             <Header as="h3" textAlign="left" color="teal">
                               {" "}
-                              PINE
+                              I Want Out
                         </Header>
                           </Grid.Column>
                           <Grid.Column floated="right" width={4}>
@@ -151,7 +151,7 @@ class Projects extends Component {
                           </div>
                         </Grid.Row>
                         <Grid.Row>
-                        <Label.Group size="medium">
+                        <Label.Group size="small">
                           <Label color="green">Flutter</Label>
                           <Label color="blue">Dart</Label>
                         </Label.Group>
@@ -164,7 +164,7 @@ class Projects extends Component {
                           <Grid.Column floated="left" width={7}>
                             <Header as="h3" textAlign="left" color="teal">
                               {" "}
-                              I Want Out
+                              PINE
                         </Header>
                           </Grid.Column>
                           <Grid.Column floated="right" width={4}>
@@ -209,7 +209,6 @@ class Projects extends Component {
                         <Label.Group size="small">
                           <Label color="green">Android</Label>
                           <Label color="red">Java</Label>
-                          <Label color="teal">ESP8266</Label>
                           <Label color="blue">IOT</Label>
                           <Label color="pink">C++</Label>
                         </Label.Group>
