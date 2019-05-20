@@ -4,6 +4,7 @@ import {
   Menu,
   Header,
   Icon,
+  Grid,
   Image,
   Container
 } from "semantic-ui-react";
@@ -14,13 +15,8 @@ class Heading extends Component {
   render() {
     return (
       <div>
-        <Segment className="heading-segment">
-          <Header color="blue" as="h3" textAlign="center">
-            <Header.Content>Nice to meet you!</Header.Content>
-          </Header>
-          <Header color="blue" as="h3" textAlign="center">
-            <Header.Content>My name is</Header.Content>
-          </Header>
+        <Segment className="heading-segment" inverted color="black">
+
           <Image
             centered
             circular
@@ -28,7 +24,7 @@ class Heading extends Component {
             size="small"
             src={require("../../img/profile_pic.png")}
           />
-          <Header color="blue" as="h1" textAlign="center">
+          <Header color="white" as="h1" textAlign="center">
             <Header.Content>Nathan Shummoogum</Header.Content>
           </Header>
           <Container
@@ -46,10 +42,9 @@ class Heading extends Component {
               <br /> For more information visit the following links
             </p>
           </Container>
-          <div className="ui one column stackable center aligned page grid">
-            <div className="column twelve wide">
-              <div className="ui three item menu">
-                <Menu borderless size="mini" compact icon="labeled">
+          <Grid centered columns={8}>
+          <Grid.Column>
+                <Menu inverted color="black" borderless size="mini" compact icon="labeled">
                   <a
                     rel="noopener noreferrer"
                     href="https://www.github.com/checkshumm"
@@ -77,9 +72,8 @@ class Heading extends Component {
                     </Menu.Item>
                   </a>
                 </Menu>
-              </div>
-            </div>
-          </div>
+                </Grid.Column>
+                </Grid>
         </Segment>
       </div>
     );
