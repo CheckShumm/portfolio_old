@@ -8,7 +8,9 @@ logo:               'assets/img/profile.png'
 background:         'assets/img/placeholder-big.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
-url:                nathanshumm.com
+url:                https://nathanshumm.com
+baseurl: ''
+
 
 # Jekyll
 permalink:          /:title/
