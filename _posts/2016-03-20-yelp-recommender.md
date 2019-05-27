@@ -23,15 +23,6 @@ The application uses a least alternating squares algorithm to generate the predi
 The whole system is hosted on an AWS that runs the algorithm on a GPU cluster for maximum performance. 
 The application is written entirely in pyspark, a python wrapper for Apache Spark.
 
-## Preview
-
-<figure class="third">
-	<img src="/assets/img/choices/choices-ss-1.png">
-	<img src="/assets/img/choices/choices-ss-2.png">
-	<img src="/assets/img/choices/choices-ss-3.png">
-	<figcaption>Login, Filter and start swiping!</figcaption>
-</figure>
-
 ---
 
     
